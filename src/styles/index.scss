@@ -1,0 +1,27 @@
+html {
+	font-size: 16px;
+}
+
+body {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.app-container {
+	padding: 0 15px;
+	max-width: 1000px;
+	margin: 5rem auto;
+}
+
+#padding-10 {
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.waves-effect {
+	z-index: inherit !important;
+}

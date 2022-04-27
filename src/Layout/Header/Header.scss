@@ -1,0 +1,16 @@
+.todoHeader {
+	display: flex;
+	align-items: center;
+	margin-bottom: 2rem;
+
+	&Icon {
+		font-weight: bold;
+		font-size: 2rem !important;
+	}
+
+	&Title {
+		font-weight: bold;
+		margin-left: 1rem;
+		font-size: 2rem;
+	}
+}

@@ -1,0 +1,16 @@
+.TodoAdd {
+	border-top: 1.5px solid #7986cb;
+	padding: 10px 20px;
+
+	&Inputs {
+		margin-bottom: 10px;
+	}
+
+	& button {
+		transition: all 0.32s ease-in;
+
+		&:hover {
+			opacity: 0.85;
+		}
+	}
+}

@@ -1,0 +1,42 @@
+.filterList {
+	margin-bottom: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	&Item {
+		justify-content: center;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		position: relative;
+		&:not(:last-child) {
+			margin-right: 3.5rem;
+		}
+
+		@media (max-width: 400px) {
+			&:not(:last-child) {
+				margin-right: 2rem;
+			}
+		}
+
+		&Icon {
+			transition: all 0.25s ease-in-out;
+			font-size: 1.7rem;
+
+			&Active {
+				font-weight: bold;
+				color: crimson;
+			}
+		}
+		&Prompt {
+			transition: all 0.25s ease-in-out;
+			opacity: 0.6;
+			&Active {
+				font-weight: bold;
+				color: crimson;
+				opacity: 1;
+			}
+		}
+	}
+}
